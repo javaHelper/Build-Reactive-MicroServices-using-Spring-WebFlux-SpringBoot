@@ -1,0 +1,35 @@
+{
+    "_id" : ObjectId("62da8dc94c0b11742cde96ae"),
+    "movieInfoId" : "62da836342b68c5790658f45",
+    "comment" : "Good Movie",
+    "rating" : 8.0,
+    "_class" : "com.example.demo.model.Review"
+}
+{
+    "_id" : ObjectId("62da8dc94c0b11742cde96af"),
+    "movieInfoId" : "62da836342b68c5790658f46",
+    "comment" : "Good Movie",
+    "rating" : 8.8,
+    "_class" : "com.example.demo.model.Review"
+}
+{
+    "_id" : ObjectId("62da8dc94c0b11742cde96b0"),
+    "movieInfoId" : "62da836342b68c5790658f47",
+    "comment" : "Good Movie",
+    "rating" : 7.2,
+    "_class" : "com.example.demo.model.Review"
+}
+{
+    "_id" : ObjectId("62da8dc94c0b11742cde96b1"),
+    "movieInfoId" : "62da836342b68c5790658f48",
+    "comment" : "Good Movie",
+    "rating" : 9.0,
+    "_class" : "com.example.demo.model.Review"
+}
+{
+    "_id" : ObjectId("62da8dc94c0b11742cde96b2"),
+    "movieInfoId" : "62da836342b68c5790658f49",
+    "comment" : "Good Movie",
+    "rating" : 6.7,
+    "_class" : "com.example.demo.model.Review"
+}
