@@ -26,6 +26,38 @@ GET -> `http://localhost:8091/v1/reviews?movieInfoId=62da836342b68c5790658f45`
 
 ---------
 
+POST-CREATE-MOVIE-INFO
+-----------------------
+```sh
+curl -i \
+-d '{"movieInfoId":1, "name": "Batman Begins", "year":2005,"cast":["Christian Bale", "Michael Cane"],"release_date": "2005-06-15"}' \
+-H "Content-Type: application/json" \
+-X POST http://localhost:8080/v1/movieinfos
+```
+
+```sh
+curl -i \
+-d '{"movieInfoId":2, "name": "The Dark Knight", "year":2008,"cast":["Christian Bale", "HeathLedger"],"release_date": "2008-07-18"}' \
+-H "Content-Type: application/json" \
+-X POST http://localhost:8080/v1/movieinfos
+```
+
+POST-REVIEW
+-------------
+```sh
+curl -i \
+-d '{"reviewId":1, "movieInfoId":1, "comment": "Awesome Movie", "rating":9.0}' \
+-H "Content-Type: application/json" \
+-X POST http://localhost:8081/v1/reviews
+```
+
+```sh
+curl -i \
+-d '{"reviewId":2, "movieInfoId":1, "comment": "Excellent Movie", "rating":8.0}' \
+-H "Content-Type: application/json" \
+-X POST http://localhost:8081/v1/reviews
+```
+
 # movie-service
 
 GET -> `http://localhost:8092/v1/movies/62da836342b68c5790658f47`
@@ -55,8 +87,3 @@ Response:
     ]
 }
 ```
-
-
-
-
-
